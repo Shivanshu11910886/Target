@@ -1,0 +1,38 @@
+.clacu
+{
+    display:flexbox;
+    flex-wrap: wrap;
+    background-color: rgb(9, 6, 23);
+    justify-content: center;
+    margin: 40px;
+    border-radius: 20px;;
+    width:50%;
+}
+
+.ele
+{
+    border: 3px solid green;
+    padding: 15px;
+    border-radius: 10px;
+    margin:10px;
+    color: aliceblue;
+    display: inline-block;
+    width: 25%;
+    justify-content: center;
+}
+.input {
+    background-color:white;
+    padding:30px;
+    text-align: right;
+    font-size:xx-large;
+    margin: 40px;
+    
+    border: 5px solid black;
+  }
+  button{
+    width: 100%;
+    align-items: center;
+    padding:20px;
+    font-size:xx-large;
+  }
+  

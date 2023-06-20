@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            border:1px solid black;
+            padding:3px 5px;
+        }
+        tr{
+            border:1px solid black;
+            padding:0px;
+        }
+        table{
+            border:1px solid black;
+            border-collapse: collapse;
+
+        }
+    </style>
+</head>
+<body>
+   <table>
+    <tr>
+        <td>1:1</td>
+        <td>2:1</td>
+        <td>3:1</td>
+        <td>4:1</td>
+        <td>5:1</td>
+    </tr>
+    <tr>
+        <td>1:1</td>
+        <td>2:1</td>
+        <td>3:1</td>
+        <td>4:1</td>
+        <td>5:1</td>
+    </tr>
+    <tr>
+        <td>1:1</td>
+        <td>2:1</td>
+        <td>3:1</td>
+        <td>4:1</td>
+        <td>5:1</td>
+    </tr>
+    <tr>
+        <td>1:1</td>
+        <td>2:1</td>
+        <td>3:1</td>
+        <td>4:1</td>
+        <td>5:1</td>
+    </tr>
+    <tr>
+        <td>1:1</td>
+        <td>2:1</td>
+        <td>3:1</td>
+        <td>4:1</td>
+        <td>5:1</td>
+    </tr>
+   </table>
+    
+    <button>Hi I am button</button>
+    <li>
+    <ul>hi </ul>
+    <ul>hello</ul>
+    <ul>me</ul>
+    <h1 class="clas">Hello I am shivasnhu</h1>
+</li>
+    <script>
+        console.log(document.documentElement);
+        console.log(document.head);
+        console.log(document.body);
+
+        //accesssing child
+        console.log(document.body.children)
+        console.log(document.children)
+        console.log(document.head.children)
+        console.log(document.body.firstChild)
+        console.log(document.body.lastChild)
+        console.log(document.body.firstElementChild)
+        console.log(document.body.lastElementChild)
+        console.log(document.body.children[0])
+        console.log(document.body.children[0].rows[1].cells[0])
+        console.log(document.body.children[0].rows[1].style="background-color:blue")
+        console.log(document.body.children[0].rows[2].style="background-color:green")
+        console.log(document.body.children[0].rows[3].style="background-color:yellow")
+        console.log(document.body.children[0].rows[4].style="background-color:red")
+        console.log(document.body.children[0].rows[0].style="background-color:pink")
+        const x=document.getElementsByClassName("clas")
+        console.log(x.style="background-color:pink")
+        const ite=document.querySelector(".clas")
+        console.log(ite)
+        
+
+
+    </script>
+    
+</body>
+</html>
